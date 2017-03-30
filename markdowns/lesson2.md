@@ -3,6 +3,6 @@
 *italic*
 
 
-@[fix this project]({stubs:["www/index.php"], command:"/bin/sh -c 'mix test test/kv_test.exs:5'"})
+@[fix this project]({stubs:["lib/kv.ex"], command:"/bin/sh -c 'mix test test/kv_test.exs:5'"})
 
 test
