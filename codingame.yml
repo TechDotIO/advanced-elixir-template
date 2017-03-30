@@ -1,0 +1,13 @@
+title : Brew Elixir
+plan: 
+  - title: Lesson 1
+    statement: markdowns/lesson1.md
+  - title: Lesson 2
+    statement: markdowns/lesson2.md
+ 
+projects:
+  main:
+    root: kv
+    runner:
+      name: cgcharlotte/elixir-exunit-runner
+      version: latest
