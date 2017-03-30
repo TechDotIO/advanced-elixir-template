@@ -17,6 +17,6 @@ defmodule KV do
   end
 
   def sum(a, b) do
-    a+b
+    a-b
   end
 end
