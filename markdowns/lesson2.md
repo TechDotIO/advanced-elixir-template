@@ -1,8 +1,10 @@
-# lesson 1
+# First Steps
 
-*italic*
+Let's try to do some easy exercise to discover Elixir syntax:
 
 
-@[fix this project]({stubs:["lib/kv.ex"], command:"kv_test.exs:5"})
+@[Return Hello]({stubs:["lib/kv.ex"], command:"kv_test.exs:3", layout:"aside"})
 
-test
+@[Return Hello World!]({stubs:["lib/kv.ex"], command:"kv_test.exs:6", layout:"aside"})
+
+@[Return a+b]({stubs:["lib/kv.ex"], command:"kv_test.exs:10", layout:"aside"})

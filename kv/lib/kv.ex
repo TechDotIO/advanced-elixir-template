@@ -6,17 +6,19 @@ defmodule KV do
   @doc """
   Hello world.
 
-  ## Examples
-
-      iex> KV.hello
-      :world
-
   """
   def hello do
-    :world
+    #write hello
+    "Hello"
+  end
+
+  def helloWorld do
+    #concat hello with world
+    KV.hello <> " world!"
   end
 
   def sum(a, b) do
-    a-b
+    #put your code here: add the two parameters!
+    a+b
   end
 end
