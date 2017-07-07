@@ -8,7 +8,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/java-template), plea
 # Hands-on Demo
 
 
-@[Return Hello World!]({stubs:["lib/Universe.ex"], command:"Universe_Test.exs:10"})
+@[Return Hello World!]({stubs:["lib/Universe.ex"], command:"Universe_test.exs:10"})
 
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
