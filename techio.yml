@@ -1,0 +1,20 @@
+title : Elixir
+
+# Table of content
+plan:
+  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/welcome.md # Set the file path to the page content
+#  - title: Another Page
+#    statement: markdowns/another-page.md
+
+
+# Settings for your programming projects and the associated Docker images
+projects:
+  java:
+    root: /elixir-project # Set the root path to your Java project
+
+    # Set the docker image. This image runs mix tests using this syntax:
+    # @[Code Editor Title]({"stubs": ["EditorFile1.ex", "EditorFile2.ex", ...], "command": "MyMixFile.exs:10"})
+    # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
+    runner:
+      name: cgcharlotte/elixir-exunit-runner
