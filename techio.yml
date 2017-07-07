@@ -10,11 +10,10 @@ plan:
 
 # Settings for your programming projects and the associated Docker images
 projects:
-  java:
-    root: /elixir-project # Set the root path to your Java project
+  elixir:
+    root: /elixir-project # Set the root path to your Elixir project
 
     # Set the docker image. This image runs mix tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.ex", "EditorFile2.ex", ...], "command": "MyMixFile.exs:10"})
-    # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
     runner:
       name: cgcharlotte/elixir-exunit-runner
