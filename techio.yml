@@ -15,6 +15,5 @@ projects:
 
     # Set the docker image. This image runs mix tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.ex", "EditorFile2.ex", ...], "command": "MyMixFile.exs:10"})
-    runner:
-      name: elixir/latest
-      buildCommand: mix compile
+    runner: elixir:latest
+    buildCommand: mix compile
